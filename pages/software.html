@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+    <link rel="icon" type="image/png" href="../assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="stylesheet" href="../assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="../assets/css/admin.css">
+    <link rel="stylesheet" href="../assets/css/app.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min14ed.css">
+
+    <link rel="stylesheet" href="../assets/css/style.min862f.css">
+
+    <title>软件监测</title>
+</head>
+<body>
+
+
+<header class="am-topbar am-topbar-inverse admin-header">
+    <div class="am-topbar-brand">
+
+    </div>
+    <div class="am-icon-list tpl-header-nav-hover-ico am-fl am-margin-right">
+
+    </div>
+
+    <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+    <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+
+        <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list tpl-header-list">
+
+            <li class="am-dropdown" data-am-dropdown data-am-dropdown-toggle>
+                <a class="am-dropdown-toggle tpl-header-list-link" href="javascript:;">
+                    <span class="tpl-header-list-user-ico"> <img src="../assets/img/user01.png"></span>
+                </a>
+                <ul class="am-dropdown-content">
+                    <li><a href="#"><span class="am-icon-bell-o"></span> 资料</a></li>
+                    <li><a href="#"><span class="am-icon-cog"></span> 设置</a></li>
+                    <li><a href="#"><span class="am-icon-power-off"></span> 退出</a></li>
+                </ul>
+            </li>
+            <li><a href="###" class="tpl-header-list-link"><span class="am-icon-sign-out tpl-header-list-ico-out-size"></span></a></li>
+        </ul>
+    </div>
+</header>
+
+
+<div class="tpl-page-container tpl-page-header-fixed">
+    <div class="tpl-left-nav tpl-left-nav-hover">
+        <!--<div class="tpl-left-nav-title">-->
+        <!--Amaze UI 列表-->
+        <!--</div>-->
+        <div class="tpl-left-nav-list">
+            <ul class="tpl-left-nav-menu">
+                <li class="tpl-left-nav-item">
+                    <a href="../pages/hardware.html" class="nav-link  tpl-left-nav-link-list">
+                        <i class="am-icon-home"></i>
+                        <span>硬件监测</span>
+                    </a>
+                </li>
+                <li class="tpl-left-nav-item">
+                    <a href="../pages/software.html" class="nav-link active">
+                        <i class="am-icon-bar-chart"></i>
+                        <span>软件监测</span>
+                    </a>
+                </li>
+                <li class="tpl-left-nav-item">
+                    <a href="../pages/services.html" class="nav-link tpl-left-nav-link-list">
+                        <i class="am-icon-bar-chart"></i>
+                        <span>服务监测</span>
+                    </a>
+                </li>
+
+
+                <li class="tpl-left-nav-item">
+                    <a href="../pages/websites.html" class="nav-link tpl-left-nav-link-list">
+                        <i class="am-icon-wpforms"></i>
+                        <span>网站监测</span>
+
+                    </a>
+                </li>
+                <li class="tpl-left-nav-item">
+                    <a href="javascript:;" class="nav-link tpl-left-nav-link-list">
+                        <i class="am-icon-table"></i>
+                        <span>预警告警</span>
+                        <i class="am-icon-angle-right tpl-left-nav-more-ico am-fr am-margin-right"></i>
+                    </a>
+                    <ul class="tpl-left-nav-sub-menu">
+                        <li>
+                            <a href="../pages/alerts.html">
+                                <i class="am-icon-angle-right"></i>
+                                <span>警情汇总</span>
+
+                            </a>
+
+                            <a href="../pages/params.html">
+                                <i class="am-icon-angle-right"></i>
+                                <span>参数配置</span>
+
+
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="tpl-left-nav-item">
+                    <a href="../pages/expections.html" class="nav-link tpl-left-nav-link-list">
+                        <i class="am-icon-key"></i>
+                        <span>异常处理</span>
+
+                    </a>
+                </li>
+                <li class="tpl-left-nav-item">
+                    <a href="javascript:;" class="nav-link tpl-left-nav-link-list">
+                        <i class="am-icon-table"></i>
+                        <span>日志管理</span>
+                        <i class="am-icon-angle-right tpl-left-nav-more-ico am-fr am-margin-right"></i>
+                    </a>
+                    <ul class="tpl-left-nav-sub-menu">
+                        <li>
+                            <a href="../pages/logsdetail.html">
+                                <i class="am-icon-angle-right"></i>
+                                <span>日志明细</span>
+
+                            </a>
+                            <a href="../pages/addlogs.html" >
+                                <i class="am-icon-angle-right"></i>
+                                <span>日志填写</span>
+                            </a>
+                            <a href="../pages/exportlogs.html">
+                                <i class="am-icon-angle-right"></i>
+                                <span>日志导出</span>
+
+
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="tpl-content-wrapper">
+        <div class="row" style="margin-top:10px;">
+            <div class="col-sm-4">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>机器</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content zhih" style=" padding-left: 0; ">
+
+                        <div class="test col-sm-3"><h5>计算机名称：</h5> <div id="hostname"></div></div>
+                        <div class="test col-sm-3"><h5>启动时间：</h5> <div id="bootTime"></div> </div>
+                        <!--<div class="test col-sm-3"><h5>用户名</h5> <div>Administrator</div> </div>-->
+                        <div class="test col-sm-6"><h5>用途：</h5> <div id="zy">Web服务器</div> </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-5">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>系统</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content zhih" style=" padding-left: 0; ">
+
+                        <div class="test col-sm-8"><h5>系统类型：</h5> <div id="systemtype"></div></div>
+                        <div class="test col-sm-4"><h5>系统版本：</h5> <div id="systemversion"></div> </div>
+                        <!--<div class="test col-sm-3"><h5>Windows激活：</h5> <div>Windows已激活</div> </div>
+                        <div class="test col-sm-3"><h5>产品ID：</h5> <div>00342-33189-27980-AAOEM</div> </div>-->
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-3">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>IIS</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content zhih" style=" padding-left: 0; ">
+
+                        <div class="test col-sm-8"><h5>名称：</h5> <div id="iisname"></div></div>
+                        <div class="test col-sm-4"><h5>版本：</h5> <div id="iisversion"></div></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top:15px;">
+            <div class="col-sm-6">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>Oracle软件</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content orclheight" id="OraclSoft" style=" padding-left: 15px; ">
+                        <div class="row">
+                            <div class="test col-sm-3"><h5>名称：</h5> <div id="orclname0"></div></div>
+                            <div class="test col-sm-3"><h5>版本：</h5> <div id="orclversion0"></div></div>
+                            <div class="test col-sm-6"><h5>安装路径：</h5> <div id="orclurl0"></div></div>
+                            <div class="orcl2">
+                                <div class="test col-sm-3"><h5>名称：</h5> <div id="orclname1"></div></div>
+                                <div class="test col-sm-3 "><h5>版本：</h5> <div id="orclversion1"></div></div>
+                                <div class="test col-sm-6 "><h5>安装路径：</h5> <div id="orclurl1"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>ArcGIS Server软件</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ibox-content agsheight" id="AgsSoft" style=" padding-left: 15px; ">
+                        <div class="row">
+
+                            <div class="test col-sm-6"><h5>名称：</h5> <div id="arcgisname0"></div></div>
+                            <div class="test col-sm-6"><h5>版本：</h5> <div id="arcgisversion0"></div></div>
+                            <div class="ags2">
+                                <div class="test col-sm-6 ags2"><h5>名称：</h5> <div id="arcgisname1"></div></div>
+                                <div class="test col-sm-6 ags2"><h5>版本：</h5> <div id="arcgisversion1"></div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>系统软件服务监测</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <table class="table" id="servicestatus" style="height:380px;margin-bottom:0px;">
+                        <thead>
+                        <tr>
+                            <th>服务名称</th>
+                            <th>服务状态</th>
+                            <th>时间</th>
+                        </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../assets/js/jquery.min.js"></script>
+<script src="../assets/js/amazeui.min.js"></script>
+<script src="../assets/js/iscroll.js"></script>
+<script src="../assets/js/app.js"></script>
+<script src="../assets/js/echarts.min.js"></script>
+<script src="../js/software.js"></script>
+</body>
+</html>
